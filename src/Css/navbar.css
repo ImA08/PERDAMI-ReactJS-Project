@@ -1,0 +1,24 @@
+nav {
+  background-color: #f5f5fa;
+}
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.navbar-brand img {
+  width: 6.5vw;
+  padding: 10px 10px;
+}
+
+.nav-link,
+.dropdown-menu li a {
+  font-family: "Merriweather", serif;
+  color: #00345b;
+}
+
+.dropdown-menu a:hover {
+  background-color: #dbd3d8;
+}
+
+nav {
+  margin-bottom: 130px;
+}
