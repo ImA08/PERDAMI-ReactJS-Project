@@ -30,7 +30,7 @@ function Navbar() {
               links={[
                 { to: "/About", text: "Tentang PERDAMI" },
                 {
-                  to: "struktur-organisasi.html",
+                  to: "/StrukturOrganisasi",
                   text: "Struktur Organisasi",
                 },
               ]}
@@ -39,7 +39,7 @@ function Navbar() {
             <DropdownMenu
               title="Acara"
               links={[
-                { to: "som15th.html", text: "SOM 15th" },
+                { to: "/Som15th", text: "SOM 15th" },
                 { to: "#", text: "Rakernas" },
                 { to: "#", text: "HBDI 115th" },
               ]}
@@ -49,12 +49,12 @@ function Navbar() {
               title="Dokumen"
               links={[
                 { to: "#", text: "E-Certificate" },
-                { to: "gallery.html", text: "Galeri" },
+                { to: "/Gallery", text: "Galeri" },
                 { to: "#", text: "Agenda Ilmiah" },
               ]}
             />
 
-            <Navlink to="hubungi-kami.html" text="Hubungi Kami" />
+            <Navlink to="/ContactUs" text="Hubungi Kami" />
           </ul>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../../Assets/img/logo.jpg";
 
 const AboutProfile = () => {
   return (
@@ -6,7 +7,7 @@ const AboutProfile = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-sm-12 order-sm-last text-center">
-            <img src="assets/img/logo.jpg" alt="" />
+            <img src={Logo} alt="" />
           </div>
           <div className="col-md-6 col-sm-12 order-sm-first text-start">
             <h3>PERDAMI WILAYAH SUMBAR</h3>
