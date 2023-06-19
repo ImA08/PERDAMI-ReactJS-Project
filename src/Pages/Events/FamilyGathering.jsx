@@ -6,9 +6,9 @@ import FamilyGatheringComponents from "../../Components/Events-components/Family
 const FamilyGathering = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <FamilyGatheringComponents />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

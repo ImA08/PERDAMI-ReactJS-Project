@@ -1,18 +1,23 @@
 import React from "react";
+import styles from "../../Css/fam-gath.module.css";
+import bgImg1 from "../../Assets/img/BGimg1.jpg";
+import bgImg2 from "../../Assets/img/BGimg2.jpg";
+import bgImg3 from "../../Assets/img/BGimg3.jpg";
+import bgImg4 from "../../Assets/img/BGimg4.jpg";
 
 const FamilyGatheringComponents = () => {
   return (
     <>
       {/* MastHead */}
-      <header class="masthead starting-point">
-        <div class="container position-relative">
-          <div class="row justify-content-center">
-            <div class="col-xl-6">
-              <div class="text-center text-white">
+      <header className={`${styles["masthead"]} ${styles["starting-point"]}`}>
+        <div
+          className={`${styles["container"]} ${styles["position-relative"]}`}>
+          <div
+            className={`${styles["row"]} ${styles["justify-content-center"]}`}>
+            <div className={styles["col-xl-6"]}>
+              <div className={`${styles["text-center"]} ${["text-white"]}`}>
                 {/* <!-- Page heading--> */}
-                <h1 class="mb-5">
-                  Generate more leads with a professional landing page!
-                </h1>
+                <h1 className={styles.mb - 5}>Family Gathering</h1>
               </div>
             </div>
           </div>
@@ -20,17 +25,19 @@ const FamilyGatheringComponents = () => {
       </header>
 
       {/* <!-- Image Showcases--> */}
-      <section class="showcase">
-        <div class="container-fluid p-0">
-          <div class="row g-0">
+      <section className={styles.showcase}>
+        <div className={`${styles["container-fluid"]} ${styles["p-0"]}`}>
+          <div className={`${styles["row"]} ${styles["g-0"]}`}>
             <div
-              class="col-lg-6 order-lg-2 text-white showcase-img"
-              style="
-              background-image: url('assets/img/\(11\)\ H3.b.\ Senam\ Pagi.jpg');
-            "></div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              className={`${styles["col-lg-6"]} ${styles["order-lg-2"]} ${styles["text-white"]} ${styles["showcase-img"]}`}
+              style={{
+                backgroundImage: `url(${bgImg1})`,
+              }}></div>
+
+            <div
+              className={`${styles["col-lg-6"]} ${styles["order-lg-1"]} ${styles["my-auto"]} ${styles["showcase-text"]}`}>
               <h2>Lorem, ipsum dolor.</h2>
-              <p class="lead mb-0">
+              <p className={`${styles["lead"]} ${styles["mb-0"]}`}>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
                 unde expedita cupiditate odio distinctio, aliquam reiciendis
                 recusandae iusto voluptatibus excepturi libero quidem nam rem
@@ -38,30 +45,32 @@ const FamilyGatheringComponents = () => {
               </p>
             </div>
           </div>
-          <div class="row g-0">
+          <div className={`${styles["row"]} ${styles["g-0"]}`}>
             <div
-              class="col-lg-6 text-white showcase-img"
-              style="
-              background-image: url('assets/img/\(104\)\ H3.a.\ Fun\ Bike.jpg');
-            "></div>
-            <div class="col-lg-6 my-auto showcase-text">
+              className={`${styles["col-lg-6"]} ${styles["text-white"]} ${styles["showcase-img"]}`}
+              style={{
+                backgroundImage: `url(${bgImg2})`,
+              }}></div>
+            <div
+              className={`${styles["col-lg-6"]} ${styles["my-auto"]} ${styles["showcase-text"]}`}>
               <h2>Lorem, ipsum dolor.</h2>
-              <p class="lead mb-0">
+              <p className={`${styles["lead"]} ${styles["mb-0"]}`}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
                 facere doloribus magnam. Dolore, nemo cumque magni, similique
                 rem quae nesciunt obcaecati nam doloribus vitae exercitationem?
               </p>
             </div>
           </div>
-          <div class="row g-0">
+          <div className={`${styles["row"]} ${styles["g-0"]}`}>
             <div
-              class="col-lg-6 order-lg-2 text-white showcase-img"
-              style="
-              background-image: url('assets/img/\(8\)\ H3.c.\ Stand\ Kuliner.jpg');
-            "></div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+              className={`${styles["col-lg-6"]} ${styles["order-lg-2"]} ${styles["text-white"]} ${styles["showcase-img"]}`}
+              style={{
+                backgroundImage: `url(${bgImg4})`,
+              }}></div>
+            <div
+              className={`${styles["col-lg-6"]} ${styles["order-lg-1"]} ${styles["my-auto"]} ${styles["showcase-text"]}`}>
               <h2>Lorem, ipsum dolor.</h2>
-              <p class="lead mb-0">
+              <p className={`${styles["lead"]} ${styles["mb-0"]}`}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Praesentium reprehenderit vero non tempore ipsam optio dolorum?
                 Nam, eaque et. Odio quis impedit exercitationem inventore dicta.

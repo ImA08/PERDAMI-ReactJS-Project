@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../Css/main.css";
 import EventSlider from "./EventSlider";
 import event1 from "../../Assets/events/(2) H1.c. Workshop.jpg";
@@ -9,7 +10,7 @@ function EventCarousel() {
   return (
     <>
       <div class="events">
-        <h2>ACARA</h2>
+        <h2>Berita dan Acara</h2>
         <div className="col-lg-12">
           <div
             id="carouselExample"
@@ -22,11 +23,13 @@ function EventCarousel() {
                     <div className="card">
                       <img src={event1} className="card-img-top" alt="..." />
                       <div className="card-body">
-                        <h5 className="card-title">Workshop</h5>
+                        <h5 className="card-title">
+                          Sumatera Opthalmologist Meeting 15th
+                        </h5>
                         <p className="card-text"></p>
-                        <a href="#" className="btn btn-primary">
+                        <Link to="/Som15th" className="btn btn-primary">
                           Selengkapnya
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -34,7 +37,7 @@ function EventCarousel() {
                     <div className="card">
                       <img src={event2} className="card-img-top" alt="..." />
                       <div className="card-body">
-                        <h5 className="card-title">Pelantikan Anggota</h5>
+                        <h5 className="card-title">Rakernas</h5>
                         <p className="card-text"></p>
                         <a href="pelantikan.html" className="btn btn-primary">
                           Selengkapnya
@@ -46,7 +49,7 @@ function EventCarousel() {
                     <div className="card">
                       <img src={event3} className="card-img-top" alt="..." />
                       <div className="card-body">
-                        <h5 className="card-title">Family Gathering</h5>
+                        <h5 className="card-title">HBDI 115th</h5>
                         <p className="card-text"></p>
                         <a href="#" className="btn btn-primary">
                           Selengkapnya

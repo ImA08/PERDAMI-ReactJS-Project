@@ -1,10 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useRef } from "react";
 import Navbar from "../Navbar-components/Navbar";
 import Footer from "../Footer-components/Footer";
 import HeadImg from "../../Assets/img/caousel1.jpeg";
+import SymposiumComponent from "./Symposium-components";
+import PelantikanPengurus from "./PelantikanPengurus";
+import FamilyGathering from "../../Pages/Events/FamilyGathering";
 
 const Som15th = () => {
+  const pelantikanRef = useRef(null);
+  const handleLinkClick = () => {
+    pelantikanRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <Navbar />
@@ -106,22 +114,25 @@ const Som15th = () => {
               </div>
             </div>{" "} */}
             {/* <!-- Categories widget--> */}
-            <div class="card mb-4">
+            {/* <div class="card mb-4">
               <div class="card-header">Categories</div>
               <div class="card-body">
                 <div class="row">
                   <div class="col-sm-6">
                     <ul class="list-unstyled mb-0">
                       <li>
-                        <Link to={"../../Pages/Events/Pelantikan"}>
+                        <div ref={pelantikanRef} onClick={handleLinkClick}>
                           Pelantikan Pengurus
-                        </Link>
+                        </div>
                       </li>
                       <li>
-                        <a href="#!">Symposium</a>
+                        <Link to="/Pelantikan">Symposium</Link>
                       </li>
                       <li>
-                        <a href="#!">Workshop</a>
+                        <Link to="/Pelantikan">Workshop</Link>
+                      </li>
+                      <li>
+                        <Link to="/Pelantikan">Family Gathering</Link>
                       </li>
                     </ul>
                   </div>
@@ -134,7 +145,7 @@ const Som15th = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* <!-- Side widget--> */}
             {/* <div class="card mb-4">
               <div class="card-header">Side Widget</div>
@@ -146,6 +157,10 @@ const Som15th = () => {
           </div>
         </div>
       </div>
+
+      <PelantikanPengurus ref={pelantikanRef} />
+      <SymposiumComponent />
+      <FamilyGathering />
       <Footer />
     </>
   );

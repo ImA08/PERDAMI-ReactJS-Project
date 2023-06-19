@@ -75,6 +75,15 @@ nav {
   text-align: justify;
 }
 
+/* home-sections */
+/* 1 */
+.home-section1 {
+  padding: 30px 0;
+}
+.home-section1 img {
+  width: 75%;
+}
+
 /* events */
 
 .events {
@@ -187,8 +196,8 @@ nav {
 }
 
 .profil-img img {
-  width: 55%;
-  height: 60%;
+  width: 300px;
+  height: 320px;
   border-radius: 50%;
   filter: drop-shadow(5px 5px 5px gray);
   transition: transform 0.2s;
@@ -201,6 +210,33 @@ nav {
 .strc-org .profil-img h3,
 p {
   padding-top: 0.8rem;
+}
+
+/* symposium */
+.head-symposium {
+  padding: 130px 0 10%;
+  text-align: center;
+}
+
+.head-symposium h3 {
+  padding-top: 80px;
+}
+.head-symposium h2 {
+  padding-bottom: 18px;
+  font-size: 3vw;
+}
+
+.head-symposium img {
+  width: 500px;
+}
+
+.symposium-part img {
+  width: 100%;
+  padding-top: 5%;
+}
+
+.symposium-part img:hover {
+  transform: scale(1.05);
 }
 
 /* pelantikan */
@@ -318,6 +354,10 @@ p {
   /* struktur org */
   .strc-org img {
     width: 130px;
+  }
+  .profil-img img {
+    width: 55%;
+    height: 60%;
   }
 
   /* pelantikan */

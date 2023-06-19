@@ -3,13 +3,14 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { contactConfig } from "./Content-option";
+import ContactForm from "./ContactForm";
 
 const ContactUsComponent = () => {
   return (
     <Container className="starting-point">
       <Row className="mb-5 mt-3">
         <Col lg="8">
-          <h1 className="display-4 mb-4">Contact Me</h1>
+          <h1 className="display-4 mb-4">Contact Us</h1>
           <hr className="t_border my-4 ml-0 text-left" />
         </Col>
       </Row>
@@ -34,48 +35,7 @@ const ContactUsComponent = () => {
           <p>{contactConfig.description}</p>
         </Col>
         <Col lg="7" className="d-flex align-items-center">
-          <form className="contact__form w-100">
-            <Row>
-              <Col lg="6" className="form-group">
-                <input
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  type="text"
-                  required
-                />
-              </Col>
-              <Col lg="6" className="form-group">
-                <input
-                  className="form-control rounded-0"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  type="email"
-                  required
-                />
-              </Col>
-            </Row>
-            <textarea
-              className="form-control rounded-0"
-              id="message"
-              name="message"
-              placeholder="Message"
-              rows="5"
-              required></textarea>
-            <br />
-            <Row>
-              <Col lg="12" className="form-group">
-                <button className="btn btn-primary" type="submit">
-                  KIRIM
-                  <i
-                    className="fa-solid fa-paper-plane-top"
-                    style={{ color: "#0000ff" }}></i>
-                </button>
-              </Col>
-            </Row>
-          </form>
+          <ContactForm />
         </Col>
       </Row>
     </Container>

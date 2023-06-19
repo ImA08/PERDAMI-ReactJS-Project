@@ -40,13 +40,13 @@ function Navbar() {
               title="Acara"
               links={[
                 { to: "/Som15th", text: "SOM 15th" },
-                { to: "#", text: "Rakernas" },
+                { to: "/Rakernas", text: "Rakernas" },
                 { to: "#", text: "HBDI 115th" },
               ]}
             />
 
             <DropdownMenu
-              title="Dokumen"
+              title="Media"
               links={[
                 { to: "#", text: "E-Certificate" },
                 { to: "/Gallery", text: "Galeri" },

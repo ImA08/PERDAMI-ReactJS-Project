@@ -2,10 +2,9 @@ import React from "react";
 import Navbar from "../../Components/Navbar-components/Navbar";
 import Footer from "../../Components/Footer-components/Footer";
 
-
 const Pelantikan = () => {
   <>
-    <Navbar />
+    {/* <Navbar /> */}
     <div class="starting-point head-pelantikan">
       <div class="container">
         <h2 class="border-bottom">
@@ -13,10 +12,7 @@ const Pelantikan = () => {
         </h2>
         <div class="row">
           <div class="col-md-6 col-sm-12 order-sm-last text-center">
-            <img
-              src=""
-              alt=""
-            />
+            <img src="" alt="" />
           </div>
           <div class="col-md-6 col-sm-12 order-sm-first text-start">
             <p>
@@ -149,7 +145,7 @@ const Pelantikan = () => {
       </div>
     </div>
 
-    <Footer />
+    {/* <Footer /> */}
   </>;
 };
 
