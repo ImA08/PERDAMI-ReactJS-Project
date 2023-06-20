@@ -1,5 +1,9 @@
 import React from "react";
 import BlogEntry from "./BlogEntry";
+import ReactOwlCarousel from "react-owl-carousel";
+import "../../../node_modules/owl.carousel/dist/owl.carousel.min.js";
+import { OwlCarouselProps } from "react-owl-carousel";
+
 import "../../Css/Carousel/css/owl.carousel.min.css";
 import "../../Css/Carousel/css/owl.theme.default.min.css";
 
@@ -28,6 +32,7 @@ const CarouselSample = () => {
                     year="2019"
                     heading="Sumatera Opthalmologist Meeting 15th"
                     text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                    link="/som15th"
                   />
 
                   <BlogEntry
@@ -37,6 +42,7 @@ const CarouselSample = () => {
                     year="2019"
                     heading="Rakernas"
                     text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                    link="/"
                   />
 
                   <BlogEntry
@@ -46,6 +52,7 @@ const CarouselSample = () => {
                     year="2019"
                     heading="HBDI 115th"
                     text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+                    link="/"
                   />
                 </div>
               </div>
