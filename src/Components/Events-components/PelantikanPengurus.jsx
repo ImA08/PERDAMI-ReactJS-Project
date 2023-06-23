@@ -5,16 +5,16 @@ import Img from "../../Assets/pelantikan/(5) H1.e. Pelantikan Pengurus Perdami.j
 const PelantikanPengurus = () => {
   return (
     <>
-      <div class="starting-point head-pelantikan">
-        <div class="container">
-          <h2 class="border-bottom">
+      <div className="starting-point head-pelantikan">
+        <div className="container">
+          <h2 className="border-bottom">
             Pelantikan Pengurus Wilayah Cabang PERDAMI
           </h2>
-          <div class="row">
-            <div class="col-md-6 col-sm-12 order-sm-last text-center">
+          <div className="row">
+            <div className="col-md-6 col-sm-12 order-sm-last text-center">
               <img src={Img} alt="" />
             </div>
-            <div class="col-md-6 col-sm-12 order-sm-first text-start">
+            <div className="col-md-6 col-sm-12 order-sm-first text-start">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
                 laudantium veritatis tempore cumque modi culpa eaque magni

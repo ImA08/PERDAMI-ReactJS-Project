@@ -22,15 +22,15 @@ function AboutSection() {
         </div>
       </section>
 
-      <section class="home-section1">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-sm-12">
+      <section className="home-section1">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-sm-12">
               <img src={Img} alt="" />
             </div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <div className="col-lg-6 order-lg-1 my-auto showcase-text">
               <h2>Lorem, ipsum dolor.</h2>
-              <p class="lead mb-0">
+              <p className="lead mb-0">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
                 unde expedita cupiditate odio distinctio, aliquam reiciendis
                 recusandae iusto voluptatibus excepturi libero quidem nam rem
