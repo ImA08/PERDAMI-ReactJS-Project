@@ -2,7 +2,7 @@ import React from "react";
 import "../../Css/gallery.css";
 import ImageComponent from "./ImageComponent";
 import ModalGalleryComponent from "./ModalGalleryComponent";
-import FilterComponent from "../../Java Script Files/galleri";
+import FilterComponent from "./galleri";
 import galleri1 from "../../Assets/gallery/som15th/gallery1.jpg";
 import galleri2 from "../../Assets/gallery/som15th/gallery2.jpg";
 import galleri3 from "../../Assets/gallery/som15th/gallery3.jpg";

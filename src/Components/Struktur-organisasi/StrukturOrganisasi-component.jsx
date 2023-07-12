@@ -8,6 +8,7 @@ import Elfi_Risalma_Putri from "../../Assets/struktur-org/dr.Elfi_Risalma_Putri.
 import Ellya_Thaher from "../../Assets/struktur-org/dr.Ellya_Thaher.jpeg";
 import Fitratul_Ilahi from "../../Assets/struktur-org/dr.Fitratul_Ilahi.jpg";
 import Khalilul_Rahman from "../../Assets/struktur-org/dr.Khalilul_Rahman.jpeg";
+import Felichia_Yovianda from "../../Assets/struktur-org/dr.Felichia_Yovianda.jpeg";
 
 function StrukturOrganisasi() {
   return (
@@ -140,7 +141,7 @@ function StrukturOrganisasi() {
               <p>dr. Primeri Putri, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Felichia_Yovianda} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Felichia Yovianda, SpM</p>
             </div>

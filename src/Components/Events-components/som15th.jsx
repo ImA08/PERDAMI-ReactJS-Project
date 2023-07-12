@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
+import { forwardRef } from "react";
 import Navbar from "../Navbar-components/Navbar";
 import Footer from "../Footer-components/Footer";
 import HeadImg from "../../Assets/img/caousel1.jpeg";

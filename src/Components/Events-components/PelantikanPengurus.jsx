@@ -1,5 +1,6 @@
 import React from "react";
 import FamGathCarousel from "./FamGath-Carousel-Component";
+
 import Img from "../../Assets/pelantikan/(5) H1.e. Pelantikan Pengurus Perdami.jpg";
 
 const PelantikanPengurus = () => {
