@@ -8,14 +8,14 @@ import Img5 from "../../Assets/events/symposium5.jpg";
 const SymposiumComponent = () => {
   return (
     <>
-      <div class="starting-point head-symposium">
-        <div class="container">
-          <h2 class="border-bottom">SYMPOSIUM</h2>
-          <div class="row">
-            <div class="col-md-6 col-sm-12 order-sm-first text-center">
-              <img src={Img1} class="float-start me-3" />
+      <div className="starting-point head-symposium">
+        <div className="container">
+          <h2 className="border-bottom">SYMPOSIUM</h2>
+          <div className="row">
+            <div className="col-md-6 col-sm-12 order-sm-first text-center">
+              <img src={Img1} className="float-start me-3" />
             </div>
-            <div class="col-md-6 col-sm-12 order-sm-last text-start">
+            <div className="col-md-6 col-sm-12 order-sm-last text-start">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
                 laudantium veritatis tempore cumque modi culpa eaque magni
@@ -29,20 +29,20 @@ const SymposiumComponent = () => {
           </div>
           <br />
           <br />
-          <div class="symposium-part">
-            <div class="row">
-              <div class="col-md-6 col-sm-12 d-flex align-items-center">
+          <div className="symposium-part">
+            <div className="row">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center">
                 <img src={Img2} />
               </div>
-              <div class="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center">
                 <img src={Img3} />
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6 col-sm-12 d-flex align-items-center">
+            <div className="row">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center">
                 <img src={Img4} />
               </div>
-              <div class="col-md-6 col-sm-12 d-flex align-items-center">
+              <div className="col-md-6 col-sm-12 d-flex align-items-center">
                 <img src={Img5} />
               </div>
             </div>

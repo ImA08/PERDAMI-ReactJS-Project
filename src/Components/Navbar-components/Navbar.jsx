@@ -33,24 +33,29 @@ function Navbar() {
                   to: "/StrukturOrganisasi",
                   text: "Struktur Organisasi",
                 },
+                {
+                  to: "/DKEDK",
+                  text: "Dewan Kehormatan Etik dan Disilplin Kedokteran(DKEDK)",
+                },
+                { to: "/BPK", text: "Badan Pemerikasa Keuangan(BPK)" },
               ]}
             />
 
             <DropdownMenu
-              title="Acara"
+              title="Events"
               links={[
                 { to: "/Som15th", text: "SOM 15th" },
                 { to: "/Rakernas", text: "Rakernas" },
-                { to: "#", text: "HBDI 115th" },
+                // { to: "#", text: "HBDI 115th" },
               ]}
             />
 
             <DropdownMenu
               title="Media"
               links={[
-                { to: "#", text: "E-Certificate" },
+                { to: "/E_Certificate", text: "E-Certificate" },
                 { to: "/Gallery", text: "Galeri" },
-                { to: "#", text: "Agenda Ilmiah" },
+                // { to: "#", text: "Agenda Ilmiah" },
               ]}
             />
 

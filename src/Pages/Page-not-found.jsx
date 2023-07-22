@@ -3,8 +3,8 @@ import styles from "../Css/page-not-found.module.css";
 
 const PageNotFound = () => {
   <div id={styles.notfound}>
-    <div class={styles.notfound}>
-      <div class={`${styles["notfound-404"]}`}>
+    <div className={styles.notfound}>
+      <div className={`${styles["notfound-404"]}`}>
         <h1>404</h1>
       </div>
       <h2>We are sorry, Page not found!</h2>

@@ -4,11 +4,63 @@ import Footer from "../Footer-components/Footer";
 import Logo from "../../Assets/img/logo.jpg";
 
 import Blank from "../../Assets/struktur-org/blank-00.png";
-import Elfi_Risalma_Putri from "../../Assets/struktur-org/dr.Elfi_Risalma_Putri.jpg";
-import Ellya_Thaher from "../../Assets/struktur-org/dr.Ellya_Thaher.jpeg";
-import Fitratul_Ilahi from "../../Assets/struktur-org/dr.Fitratul_Ilahi.jpg";
+
+// dewan penasehat
 import Khalilul_Rahman from "../../Assets/struktur-org/dr.Khalilul_Rahman.jpeg";
+import Hendriati from "../../Assets/struktur-org/dr.Hendriati.jpeg";
+
+import Ellya_Thaher from "../../Assets/struktur-org/dr.Ellya_Thaher.jpeg";
+import Heksan from "../../Assets/struktur-org/dr.Heksan.jpg";
+import M_Hidayat from "../../Assets/struktur-org/dr.M_Hidayat.jpg";
+
+// pengurus inti
+import Fitratul_Ilahi from "../../Assets/struktur-org/dr.Fitratul_Ilahi.jpg";
+import Naima_Lassie from "../../Assets/struktur-org/dr.Naima_Lassie.jpeg";
+import Fitriliza_Hamdy from "../../Assets/struktur-org/dr.Fitriliza_Hamdy.jpg";
+import Neneng_Susanti from "../../Assets/struktur-org/dr.Neneng_Susanti.jpg";
+import Lavina_Rini_Sofyan from "../../Assets/struktur-org/dr.Lavina_Rini_Sofyan.jpg";
+import Rinda_Wati from "../../Assets/struktur-org/dr.Rinda_Wati.jpeg";
+import Nova_Herdana from "../../Assets/struktur-org/dr.Nova_Herdana.jpg";
+
+// Sie Ilmiah & pengembangan profesi
+import Desty_Ria_Tiffany from "../../Assets/struktur-org/dr.Desty_Ria_Tiffany.jpg";
+import Reni_Anggraini from "../../Assets/struktur-org/dr.Reni_Anggraini.jpeg";
+import Lona_Diolanda from "../../Assets/struktur-org/dr.Lona_Diolanda.jpg";
+import Raihana_rustam from "../../Assets/struktur-org/dr.Raihana_rustam.jpeg";
+
+// Sie penanggulangan buta katarak
+import Irawadi_Putra from "../../Assets/struktur-org/dr.Irawadi_Putra.jpg";
 import Felichia_Yovianda from "../../Assets/struktur-org/dr.Felichia_Yovianda.jpeg";
+import Primery_Puteri from "../../Assets/struktur-org/dr.Primery_Puteri.jpg";
+import Mayasari_Nasrul from "../../Assets/struktur-org/dr.Mayasari_Nasrul.jpg";
+
+// Sie Pengabdian Masyarakat
+import Suci_Permata from "../../Assets/struktur-org/dr.Suci_Permata.jpeg";
+import Ismail_Abdullah from "../../Assets/struktur-org/dr.Ismail_Abdullah.jpg";
+
+// sie p2kb
+import Julita from "../../Assets/struktur-org/dr.Julita.jpg";
+import Haves_Ashan from "../../Assets/struktur-org/dr.Haves_Ashan.jpg";
+import Silvy_Fetriyanita from "../../Assets/struktur-org/dr.Silvy_Fetriyanita.jpg";
+import Yanuhardi from "../../Assets/struktur-org/dr.Yanuhardi.jpg";
+
+// sie pemberdayaan dan kesejahteraan anggota
+import Linda_Wira_Putri from "../../Assets/struktur-org/dr.Linda_Wira_Putri.jpeg";
+import Ewi_Primadona from "../../Assets/struktur-org/dr.Ewi_Primadona.jpeg";
+import Indriani_Syafitri from "../../Assets/struktur-org/dr.Indriani_Syafitri.jpg";
+import Tetri_Guvariani from "../../Assets/struktur-org/dr.Tetri_Guvariani.jpeg";
+
+// sie pgpk
+import Ike_Rahayu from "../../Assets/struktur-org/dr.Ike_Rahayu.jpeg";
+import Kaniela_Ayuni_Putri from "../../Assets/struktur-org/dr.Kaniela_Ayuni_Putri.jpeg";
+
+import Elfi_Risalma_Putri from "../../Assets/struktur-org/dr.Elfi_Risalma_Putri.jpg";
+import Zulhijjah_Yati_Syari from "../../Assets/struktur-org/dr.Zulhijjah_Yati_Syari.jpeg";
+
+// sie humas it dan web
+import Deni_Wiryulisda from "../../Assets/struktur-org/dr.Deni_Wiryulisda.jpeg";
+import Messia_Refri_Rahmi from "../../Assets/struktur-org/dr.Messia_Refri_Rahmi.jpg";
+import Dicky_Stevano from "../../Assets/struktur-org/dr.Dicky_Stevano.jpeg";
 
 function StrukturOrganisasi() {
   return (
@@ -18,7 +70,7 @@ function StrukturOrganisasi() {
         <div className="container">
           <div className="caption-head">
             <h2>PENGURUS PERDAMI WILAYAH SUMATERA BARAT</h2>
-            <h3>PERIODE</h3>
+            <h3>PERIODE 2022-2025</h3>
           </div>
 
           <img src={Logo} alt="" className="logo-head" />
@@ -30,12 +82,12 @@ function StrukturOrganisasi() {
               <p>Prof. dr. Khalilul Rahman, SpM (K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={M_Hidayat} alt="" />
               <h3>ANGGOTA</h3>
               <p>Dr. dr. M. Hidayat, SpM (K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Hendriati} alt="" />
               <h3>ANGGOTA</h3>
               <p>Dr. dr. Hendriati, SpM (K)</p>
             </div>
@@ -45,7 +97,7 @@ function StrukturOrganisasi() {
               <p>dr. Ellya Thaher, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Heksan} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Heksan, SpM (K)</p>
             </div>
@@ -60,6 +112,7 @@ function StrukturOrganisasi() {
               <p>dr. Syarif Amal, SpM</p>
             </div>
           </div>
+
           <div className="row">
             <h3>PENGURUS INTI PERDAMI SUMATERA BARAT</h3>
             <div className="profil-img col-lg-12">
@@ -68,32 +121,32 @@ function StrukturOrganisasi() {
               <p>Dr. dr. Fitratul Ilahi, SpM (K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Rinda_Wati} alt="" />
               <h3>WAKIL KETUA I</h3>
               <p>dr. Rinda Wati, SpM (K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Naima_Lassie} alt="" />
               <h3>WAKIL KETUA II</h3>
               <p>dr. Naima Lassie, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Fitriliza_Hamdy} alt="" />
               <h3>SEKRETARIS</h3>
               <p>dr. Fitriliza Hamdy, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>BENDAHARA</h3>
-              <p>dr. Neneng Susanti, SpM</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Nova_Herdana} alt="" />
               <h3>WAKIL SEKRETARIS</h3>
               <p>dr. Nova Herdana, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Neneng_Susanti} alt="" />
+              <h3>BENDAHARA</h3>
+              <p>dr. Neneng Susanti, SpM</p>
+            </div>
+            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
+              <img src={Lavina_Rini_Sofyan} alt="" />
               <h3>WAKIL BENDAHARA</h3>
               <p>dr. Lavina Rini Sofyan, SpM</p>
             </div>
@@ -102,22 +155,22 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI ILMIAH DAN PENGEMBANGAN PROFESI</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Reni_Anggraini} alt="" />
               <h3>KETUA</h3>
               <p>dr. Reni Anggraini, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-4 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Lona_Diolanda} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Lona Diolanda, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-4 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Raihana_rustam} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Raihana Rustam, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-4 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Desty_Ria_Tiffany} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Desty Ria Tiffani, SPM</p>
             </div>
@@ -126,17 +179,17 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI PENANGGULANGAN BUTA KATARAK</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Irawadi_Putra} alt="" />
               <h3>KETUA</h3>
               <p>dr. Irawadi Putra, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Mayasari_Nasrul} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Mayasari Nasrul, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Primery_Puteri} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Primeri Putri, SpM</p>
             </div>
@@ -165,12 +218,12 @@ function StrukturOrganisasi() {
               <p>dr. Adil, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Ismail_Abdullah} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Ismail Abdullah, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-12 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Suci_Permata} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Suci Permata Sari, SpM</p>
             </div>
@@ -179,22 +232,22 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI P2KB</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Julita} alt="" />
               <h3>KETUA</h3>
               <p>dr. Julita, SpM (K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Haves_Ashan} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Haves Ashan, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Yanuhardi} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Yanuhardi, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-12 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Silvy_Fetriyanita} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Silvy Fetriyanita, SpM</p>
             </div>
@@ -203,22 +256,22 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI PEMBERDAYAAN DAN KESEJAHTERAAN ANGGOTA</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Linda_Wira_Putri} alt="" />
               <h3>KETUA</h3>
               <p>dr. Linda Wira Putri, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Tetri_Guvariani} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Tetri Gusvariani, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Ewi_Primadona} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Ewi Primadona, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-12 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Indriani_Syafitri} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Indriani Syafitri, SpM</p>
             </div>
@@ -227,7 +280,7 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI PGPK</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Ike_Rahayu} alt="" />
               <h3>KETUA</h3>
               <p>dr. Ike Rahayu, SpM</p>
             </div>
@@ -237,12 +290,12 @@ function StrukturOrganisasi() {
               <p>dr. Elfi Risalma Puteri, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Zulhijjah_Yati_Syari} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Zulhijjah Yati Syari, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-12 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Kaniela_Ayuni_Putri} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Kaniela Ayuni Putri, SpM</p>
             </div>
@@ -256,17 +309,17 @@ function StrukturOrganisasi() {
               <p>dr. Diska Herriadi, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Dicky_Stevano} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Dicky Stevano Zukhri, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Messia_Refri_Rahmi} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Messia Refri Rahmi, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-12 col-lg-4">
-              <img src={Blank} alt="" />
+              <img src={Deni_Wiryulisda} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Deni Wiryulisda, SpM</p>
             </div>
