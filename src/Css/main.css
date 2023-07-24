@@ -328,6 +328,21 @@ p {
     text-align: center;
   }
 
+  .home-section1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .home-section1 img {
+    width: 100%;
+  }
+
+  .home-section1 .showcase-text {
+    padding: 20px;
+    text-align: center;
+  }
+
   .awards-works {
     text-align: left;
   }

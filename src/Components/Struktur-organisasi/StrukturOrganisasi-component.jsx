@@ -35,6 +35,7 @@ import Primery_Puteri from "../../Assets/struktur-org/dr.Primery_Puteri.jpg";
 import Mayasari_Nasrul from "../../Assets/struktur-org/dr.Mayasari_Nasrul.jpg";
 
 // Sie Pengabdian Masyarakat
+import Dahlina from "../../Assets/struktur-org/dr.Dahlina.jpg";
 import Suci_Permata from "../../Assets/struktur-org/dr.Suci_Permata.jpeg";
 import Ismail_Abdullah from "../../Assets/struktur-org/dr.Ismail_Abdullah.jpg";
 
@@ -208,7 +209,7 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI PENGABDIAN MASYARAKAT</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Dahlina} alt="" />
               <h3>KETUA</h3>
               <p>dr. Dahlina, SpM</p>
             </div>
