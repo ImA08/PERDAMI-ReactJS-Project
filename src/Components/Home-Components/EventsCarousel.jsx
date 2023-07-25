@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../Css/main.css";
 import EventSlider from "./EventSlider";
-import event1 from "../../Assets/events/(1) H3.a. Fun Bike.jpg";
+import event1 from "../../Assets/events/caousel1.jpeg";
 import event2 from "../../Assets/rakernas/rakernas1.jpg";
-import event3 from "../../Assets/events/(129) H1.e. Pelantikan Pengurus Perdami.jpg";
+import event3 from "../../Assets/events/hbdii.jpg";
 // import { Carousel } from "bootstrap";
 // import { CarouselItem } from "react-bootstrap";
 
@@ -42,9 +42,9 @@ function EventCarousel() {
                       <div className="card-body">
                         <h5 className="card-title">Rakernas</h5>
                         <p className="card-text"></p>
-                        <a href="pelantikan.html" className="btn btn-primary">
+                        <Link to="/rakernas" className="btn btn-primary">
                           Selengkapnya
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -54,9 +54,9 @@ function EventCarousel() {
                       <div className="card-body">
                         <h5 className="card-title">HBDI 115th</h5>
                         <p className="card-text"></p>
-                        <a href="#" className="btn btn-primary">
+                        <Link to="/hbdi" className="btn btn-primary">
                           Selengkapnya
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

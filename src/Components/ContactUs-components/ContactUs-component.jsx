@@ -32,7 +32,10 @@ const ContactUsComponent = () => {
               ""
             )}
           </address>
-          <p>{contactConfig.description}</p>
+          <p>
+            Perumahan Pondok Indah Pratama Blok B/4 Jati Gaung <br />
+            Kec. Padang Timur, Kota Padang
+          </p>
         </Col>
         <Col lg="7" className="d-flex align-items-center">
           <ContactForm />

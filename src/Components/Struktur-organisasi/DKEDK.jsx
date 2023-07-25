@@ -5,6 +5,8 @@ import Logo from "../../Assets/img/logo.jpg";
 
 import Blank from "../../Assets/struktur-org/blank-00.png";
 
+import Romi_Yusardi from "../../Assets/struktur-org/dr.Romi_Yusardi.jpg";
+
 const DKEDK = () => {
   return (
     <>
@@ -22,39 +24,24 @@ const DKEDK = () => {
 
           <div className="row">
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Romi_Yusardi} alt="" />
               <h3>KETUA</h3>
-              <p> dr. ...</p>
+              <p> dr. Romi yusardi, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
               <img src={Blank} alt="" />
-              <h3>WAKIL KETUA I</h3>
-              <p> dr. ...</p>
+              <h3>ANGGOTA</h3>
+              <p> dr. Harmen, SpM(K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
               <img src={Blank} alt="" />
-              <h3>WAKIL KETUA II</h3>
-              <p> dr. ...</p>
+              <h3>ANGGOTA</h3>
+              <p> dr. Azwin Aziz, SpM</p>
             </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
+            <div className="profil-img col-sm-12 col-md-12 col-lg-12">
               <img src={Blank} alt="" />
-              <h3>SEKRETARIS</h3>
-              <p> dr. ...</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>WAKIL SEKRETARIS</h3>
-              <p> dr. ...</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>BENDAHARA</h3>
-              <p> dr. ...</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>WAKIL BENDAHARA</h3>
-              <p> dr. ...</p>
+              <h3>ANGGOTA</h3>
+              <p>Dr. dr. Havriza Vitresia, SpM(K)</p>
             </div>
           </div>
         </div>

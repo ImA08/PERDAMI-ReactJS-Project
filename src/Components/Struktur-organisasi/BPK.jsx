@@ -22,37 +22,22 @@ const BPK = () => {
             <div className="profil-img col-lg-12">
               <img src={Blank} alt="" />
               <h3>KETUA</h3>
-              <p> dr. ...</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>WAKIL KETUA</h3>
-              <p> dr. ...</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>SEKRETARIS</h3>
-              <p> dr. ...</p>
+              <p> dr. Khairul Said, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
               <img src={Blank} alt="" />
               <h3>ANGGOTA</h3>
-              <p> dr. ...</p>
+              <p> dr. Mardijas Effendi, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
               <img src={Blank} alt="" />
               <h3>ANGGOTA</h3>
-              <p> dr. ...</p>
+              <p> dr. Afiyarni Ibrahim, SpM</p>
             </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
+            <div className="profil-img col-sm-12 col-md-12 col-lg-12">
               <img src={Blank} alt="" />
               <h3>ANGGOTA</h3>
-              <p> dr. ...</p>
-            </div>
-            <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
-              <h3>ANGGOTA</h3>
-              <p> dr. ...</p>
+              <p> dr. Hondrial, SpM</p>
             </div>
           </div>
         </div>

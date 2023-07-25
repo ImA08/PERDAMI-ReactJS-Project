@@ -10,6 +10,7 @@ import BPK from "./Components/Struktur-organisasi/BPK";
 import Som15th from "./Components/Events-components/som15th";
 import Pelantikan from "./Pages/Events/Pelantikan";
 import Rakernas from "./Pages/Events/Rakernas/Rakernas";
+import HBDI from "./Components/Events-components/hbdi/hbdi";
 import Gallery from "./Pages/Gallery";
 import E_Certificate from "./Pages/e-certificate";
 import FamilyGathering from "./Pages/Events/FamilyGathering";
@@ -27,6 +28,7 @@ function App() {
         <Route path="/Som15th" element={<Som15th />} />
         {/* <Route path="/Pelantikan" element={<Pelantikan />} /> */}
         <Route path="/Rakernas" element={<Rakernas />} />
+        <Route path="/HBDI" element={<HBDI />} />
         <Route path="/FamilyGathering" element={<FamilyGathering />} />
         <Route path="/E_Certificate" element={<E_Certificate />} />
         <Route path="/Gallery" element={<Gallery />} />

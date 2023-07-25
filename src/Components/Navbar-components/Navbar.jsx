@@ -46,7 +46,7 @@ function Navbar() {
               links={[
                 { to: "/Som15th", text: "SOM 15th" },
                 { to: "/Rakernas", text: "Rakernas" },
-                // { to: "#", text: "HBDI 115th" },
+                { to: "/HBDI", text: "HBDI 115th" },
               ]}
             />
 
