@@ -6,6 +6,9 @@ import Logo from "../../Assets/img/logo.jpg";
 import Blank from "../../Assets/struktur-org/blank-00.png";
 
 import Romi_Yusardi from "../../Assets/struktur-org/dr.Romi_Yusardi.jpg";
+import Azwin_Aziz from "../../Assets/struktur-org/dr.Azwin_Aziz.jpg";
+import Harmen from "../../Assets/struktur-org/dr.Harmen.jpg";
+import Havriza_Vitresia from "../../Assets/struktur-org/dr.Havriza_Vitresia.jpg";
 
 const DKEDK = () => {
   return (
@@ -29,17 +32,17 @@ const DKEDK = () => {
               <p> dr. Romi yusardi, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Harmen} alt="" />
               <h3>ANGGOTA</h3>
               <p> dr. Harmen, SpM(K)</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-6">
-              <img src={Blank} alt="" />
+              <img src={Azwin_Aziz} alt="" />
               <h3>ANGGOTA</h3>
               <p> dr. Azwin Aziz, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-12 col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Havriza_Vitresia} alt="" />
               <h3>ANGGOTA</h3>
               <p>Dr. dr. Havriza Vitresia, SpM(K)</p>
             </div>
