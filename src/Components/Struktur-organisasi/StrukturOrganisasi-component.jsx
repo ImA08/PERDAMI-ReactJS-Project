@@ -33,6 +33,7 @@ import Irawadi_Putra from "../../Assets/struktur-org/dr.Irawadi_Putra.jpg";
 import Felichia_Yovianda from "../../Assets/struktur-org/dr.Felichia_Yovianda.jpeg";
 import Primery_Puteri from "../../Assets/struktur-org/dr.Primery_Puteri.jpg";
 import Mayasari_Nasrul from "../../Assets/struktur-org/dr.Mayasari_Nasrul.jpg";
+import Andri_Yosrizal from "../../Assets/struktur-org/dr.Andri_Yosrizal.jpg";
 
 // Sie Pengabdian Masyarakat
 import Dahlina from "../../Assets/struktur-org/dr.Dahlina.jpg";
@@ -59,6 +60,7 @@ import Elfi_Risalma_Putri from "../../Assets/struktur-org/dr.Elfi_Risalma_Putri.
 import Zulhijjah_Yati_Syari from "../../Assets/struktur-org/dr.Zulhijjah_Yati_Syari.jpeg";
 
 // sie humas it dan web
+import Diska_Herriadi from "../../Assets/struktur-org/dr.Diska_Herriadi.jpg";
 import Deni_Wiryulisda from "../../Assets/struktur-org/dr.Deni_Wiryulisda.jpeg";
 import Messia_Refri_Rahmi from "../../Assets/struktur-org/dr.Messia_Refri_Rahmi.jpg";
 import Dicky_Stevano from "../../Assets/struktur-org/dr.Dicky_Stevano.jpeg";
@@ -200,7 +202,7 @@ function StrukturOrganisasi() {
               <p>dr. Felichia Yovianda, SpM</p>
             </div>
             <div className="profil-img col-sm-12 col-md-6 col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Andri_Yosrizal} alt="" />
               <h3>ANGGOTA</h3>
               <p>dr. Andri Yosrizal, SpM</p>
             </div>
@@ -305,7 +307,7 @@ function StrukturOrganisasi() {
           <div className="row">
             <h3>SEKSI PENGABDIAN HUMAS IT DAN WEBSITE</h3>
             <div className="profil-img col-lg-12">
-              <img src={Blank} alt="" />
+              <img src={Diska_Herriadi} alt="" />
               <h3>KETUA</h3>
               <p>dr. Diska Herriadi, SpM</p>
             </div>

@@ -88,7 +88,6 @@ nav {
 
 .events {
   text-align: center;
-  justify-content: center;
   padding: 3% 7%;
 }
 
@@ -97,24 +96,21 @@ nav {
   font-size: 2rem;
 }
 
+.events .carousel-inner {
+  /* display: flex;
+  flex-wrap: wrap; */
+  justify-content: center;
+}
+
 .events .card {
-  margin: 3% 0;
-  width: 25vw;
-  height: 30vw;
+  margin: 3%;
+  /* flex: 0 0 calc(33.33% - 6%); */
 }
 
 .events .card-img-top {
   height: 250px;
   width: 100%;
   object-fit: cover;
-}
-
-.d-md-none {
-  padding: 5% 8%;
-}
-
-.d-md-none img {
-  height: 60vh;
 }
 
 /* awards-works */
@@ -365,6 +361,20 @@ p {
 
   p.paragraf {
     text-align: justify;
+  }
+
+  /* Events */
+
+  .events .card {
+    margin: 3% 0;
+    width: 10vw;
+    height: 12vw;
+  }
+
+  .events .card-img-top {
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
   }
 
   /* struktur org */
