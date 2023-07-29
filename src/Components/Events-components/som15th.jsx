@@ -5,6 +5,9 @@ import { forwardRef } from "react";
 import Navbar from "../Navbar-components/Navbar";
 import Footer from "../Footer-components/Footer";
 import HeadImg from "../../Assets/img/caousel1.jpeg";
+import Gunting_pita from "./gunting-pita";
+import Business_meeting from "./business_meeting";
+import Workshop from "./workshop";
 import SymposiumComponent from "./Symposium-components";
 import PelantikanPengurus from "./PelantikanPengurus";
 import FamilyGathering from "../../Pages/Events/FamilyGathering";
@@ -159,6 +162,9 @@ const Som15th = () => {
         </div>
       </div>
 
+      <Gunting_pita />
+      <Business_meeting />
+      <Workshop />
       <PelantikanPengurus ref={pelantikanRef} />
       <SymposiumComponent />
       <FamilyGathering />
